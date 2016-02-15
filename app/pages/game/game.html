@@ -1,0 +1,14 @@
+<ion-content padding class="page1">
+
+  <h2 style="text:center">{{preguntes[i].pregunta}}</h2>
+
+  <button block (click)="selectResposta(1)">{{preguntes[i].resposta_1}}</button>
+  <button block (click)="selectResposta(2)">{{preguntes[i].resposta_2}}</button>
+  <button block (click)="selectResposta(3)">{{preguntes[i].resposta_3}}</button>
+  <button block (click)="selectResposta(4)">{{preguntes[i].resposta_4}}</button>
+
+  <p>vides: {{vides}}</p>
+  <p>preguntes correctes: {{preguntes_correctes}}</p>
+  <p>preguntes incorrectes: {{preguntes_inocorrectes}}</p>
+
+</ion-content>
